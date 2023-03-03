@@ -1,0 +1,187 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../../assets/fonts/RobotoSlab-Regular.ttf);
+    font: weight 400;
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url(../../assets/fonts/RobotoSlab-Bold.ttf);
+    font: weight 300;
+}
+@font-face{
+    font-family: myThirdFont;
+    src: url(../../assets/fonts/Montserrat-Thin.ttf);
+    font: weight 100;
+}
+@font-face{
+    font-family: myFourthFont;
+    src: url(../../assets/fonts/Montserrat-Regular.ttf);
+    font: weight 400;
+}
+body,
+html {
+  margin:0;
+  height:100%;
+  width: 100%;
+  color: #fff;
+  font-family: myFirstFont;
+}
+main {
+  height: 100%;
+  width:100%;
+}
+.menu{
+  position: fixed;
+  width: 100%;
+}
+.menu ul {
+  width: 100%;   
+  padding-bottom: 2%;
+  padding-left: 0%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+} 
+.menu ul li{
+  list-style: none;
+  padding-bottom: 5px;
+}
+.menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  padding-bottom: 10%;
+}
+.menu ul li a:hover{
+    border-bottom: #fff solid 2px;   
+    border-radius: 10%;
+} 
+section {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.section-main {
+  background-image: url(../../assets/images/olympos.jpg);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+.section-main .hero{
+    max-width: 1300px;
+    margin: 0px;
+    font-family: mySecondFont; 
+    font-size: 50px;
+}
+.section-main .hero-sub{
+    max-width: 1500px;
+    margin: 0px;
+    font-family: myThirdFont; 
+    font-size: 35px;
+}
+.section-main .hero-button{
+    font-family: myFourthFont;
+    font-size: 24px;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom:8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:rgb(70, 44, 12);
+    border-color: brown;
+    border-radius: 35px;
+    border-style: double;
+    border-width: 13px;
+    border-inline-end-color: bisque;
+    border-inline-start-color: bisque;
+    color:white    
+}
+.section-main .hero-button:hover {
+    border-inline-start-color:black;
+    border-inline-end-color: black;
+}
+.section-gallery{
+  background-image: url(../../assets/images/olympos\ gallery.jpg);
+}
+
+.section-gallery .arena {
+  padding-top: 4%;
+  text-align: center;
+}
+
+.sıra1 {
+  width: 100%;
+  text-align: center;
+  color:cadetblue ;
+  font-family: mySecondFont;
+}
+
+.sıra1 .card1{
+  width: 120px;
+  padding: 24px;
+  background:rgba(88, 88, 88, 0.5);
+  color:darkblue ;
+}
+.sıra2 {
+  width: 100%;
+  text-align: center;
+  color:cadetblue;
+  font-family: mySecondFont;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sıra2 .card1 {
+  width: 120px;
+  padding: 24px;
+  background:rgba(88, 88, 88, 0.5);
+}  
+
+.sıra2 .card2 {
+  width: 120px;
+  padding: 24px;
+  background:rgba(88, 88, 88, 0.5);
+}  
+
+.sıra2 .card3 {
+  width: 120px;
+  padding: 24px;
+  background:rgba(88, 88, 88, 0.5);
+}  
+
+.sıra3 {
+  width: 100%;
+  text-align: center;
+  color:cadetblue ;
+  font-family: mySecondFont;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sıra3 .card1 {
+  width: 120px;
+  padding: 24px;
+  background:rgba(88, 88, 88, 0.5);
+  color:darkslategrey ;
+}  
+
+.sıra3 .card2 {
+  width: 120px;
+  padding: 24px;
+  background:rgba(88, 88, 88, 0.5);
+  color:darkslategrey ;
+}  
+
+.sıra3 .card3 {
+  width: 120px;
+  padding: 24px;
+  background:rgba(88, 88, 88, 0.5);
+  color:darkslategrey ;
+}  
+
+
+
